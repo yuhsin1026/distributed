@@ -1,0 +1,42 @@
+body {
+    position: relative;
+}
+body:after {
+    content : "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1080/1703/Library-many-books_1920x1080.jpg);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+}
+button { /*font of button*/
+    background-color: rgb(127, 39, 9);
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+button:disabled,
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}

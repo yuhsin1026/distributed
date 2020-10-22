@@ -1,0 +1,67 @@
+body {
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1080/1703/Library-many-books_1920x1080.jpg);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div.log-box-short{
+    font-size: 20px;
+    line-height: 50px;
+    width: 300px;
+    height: 250px;
+    padding: 20px 80px;
+    background: rgba(255,255,255,0.85);
+    border-radius: 5px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -225px;
+    margin-top: -225px;
+    align-items: center;
+    text-align: center;
+}
+div.log-box-long{
+    font-size: 20px;
+    line-height: 50px;
+    width: 300px;
+    height: 400px;
+    padding: 20px 80px;
+    background: rgba(255,255,255,0.85);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -225px;
+    margin-top: -225px;
+    align-items: center;
+    text-align: center;
+}
+button { /*font of button*/
+    background-color: rgb(127, 39, 9);
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+button:disabled,
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+td { /*font of table*/
+    height: 30px;
+    vertical-align: middle;
+}
