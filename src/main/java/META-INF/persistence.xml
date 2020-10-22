@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="final">
+        <jta-data-source>jdbc/mysql</jta-data-source>
+        <class>Entity_Bean.AuthorEntity</class>
+        <class>Entity_Bean.BookEntity</class>
+        <class>Entity_Bean.AdminEntity</class>
+        <class>Entity_Bean.LibraryEntity</class>
+        <class>Entity_Bean.RecordEntity</class>
+        <class>Entity_Bean.UserTbEntity</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:mysql://192.168.99.100:3306/library"/>
+            <property name="toplink.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://192.168.99.100:3306/library"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:mysql://192.168.99.100:3306/library"/>
+            <property name="openjpa.ConnectionDriverName" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://192.168.99.100:3306/library"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
